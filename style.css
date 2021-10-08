@@ -1,6 +1,8 @@
 .leftside, .rightside {
     height: 50vh;
     width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 @media screen and (min-width:768px) {
@@ -12,8 +14,10 @@
 
 .leftside {
     background: red;
+    background-image: url("images/forest-unsplash.jpg");
 }
 
 .rightside {
     background: blue;
+    background-image: url("images/beach-unsplash.jpg");
 }
